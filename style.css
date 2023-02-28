@@ -4,11 +4,25 @@
   padding: 90px 30px 0 30px;
   background-color: #000000;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.205);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.205);
 }
 .keys {
   position: relative;
 }
+/* .show-hide-key{
+  font-size: 1rem;
+  color:white;
+  position:absolute;
+  left: 15px;
+  background-color: #000;
+  padding: 0.5rem 1rem;
+box-shadow: 1px 1px 1px white;
+visibility: visible;
+}
+.show-hide-key:hover{
+  cursor: pointer;
+} */
+
 
 .white-keys {
   display: flex;
@@ -20,6 +34,8 @@
   border: solid #000 2px;
   box-sizing: border-box;
   background-color: white;
+  text-indent: 20px;
+  font-size: 0.8rem;
 }
 .press {
   height: 295px;
@@ -40,11 +56,17 @@
 .shadow-black {
   height: 90%;
   width: 37px;
+  color: white;
+  text-indent: 5px;
+  padding-top:3px ;
+  font-size: 0.8rem;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 5px 10px rgb(0, 0, 0), 0 5px 10px -6px white;
   border-radius: 0 0 5px 5px;
   border-left: 1px solid white;
   border-bottom: 0.2px solid rgba(255, 255, 255, 0.295);
+   
+
 }
 
 .black-press {
