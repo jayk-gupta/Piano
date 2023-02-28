@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(182, 182, 182);
+  background-image: url("/orion-nebula-ga2ecc6324_1920.jpg");
+}
+.heading {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  color: white;
+  text-shadow: 5px 2px 0 rgb(0, 0, 0);
+  letter-spacing: 10px;
+  font-family: "Noto Serif", serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50vw;
+  transform: translateX(-50%);
+  color: white;
+  padding: 6px 0;
+  font-size: 1.2rem;
+  word-spacing: 5px;
+  background-color: #0c0014;
+  width: 100%;
+  text-align: center;
+  font-family:monospace;
+}
