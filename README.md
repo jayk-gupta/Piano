@@ -1,7 +1,7 @@
 # PIANO
 
-I have made a piano using  Html, CSS and vanilla JavaScript. 
- Designed it all myself by looking at the actual piano image.
+I have made a piano using  Html, CSS and vanilla JavaScript,designed using vanilla CSS.
+
 
 ## Build with
 - HTML
